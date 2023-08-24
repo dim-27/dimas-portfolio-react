@@ -1,0 +1,37 @@
+h1, h2, h3, h4 {
+    color: white;
+    font-weight: bolder;
+}
+
+
+.AboutMe {
+    text-align: justify;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.AboutMe img {
+    background-size: contain;
+    padding: 10px;
+    width: 30px;
+}
+
+.MyName {
+    font-size: 30px;
+    text-align: left;
+}
+
+.WhatIDo ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}

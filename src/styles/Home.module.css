@@ -1,0 +1,25 @@
+.HomePage {
+    margin: 80px;
+    line-height: 50px;
+    opacity: 1;
+    animation-name: fade;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@media only screen and (max-width:80px){
+    .HomePage{
+        width:100%;
+     }
+  }
+
+@media only screen and (min-width:80px){
+    .HomePage{
+        width:50%;
+    }
+}
+
+@keyframes fade {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
