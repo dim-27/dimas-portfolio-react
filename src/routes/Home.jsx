@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css"
 
 function Home() {
     return(
-        <div className={styles.HomePage}>
+        <div className={styles.HomePage} id="HomePage">
             <nav>
                 <Navbar/>
             </nav>
